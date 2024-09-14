@@ -14,12 +14,12 @@
 
 body {
   min-height: 100vh;
-  padding: 0 500px;
+  /* padding: 0 500px; */
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 110px;
 }
 
 .menu {
@@ -33,6 +33,12 @@ ul {
   gap: 10px;
 }
 
+.header-container {
+  padding: 0px 200px;
+  background-color: #1f2937;
+  color: white;
+}
+
 .header-body {
   display: flex;
   justify-content: space-between;
@@ -44,9 +50,57 @@ ul {
 }
 
 .first-container {
-  padding: 20px;
+  padding: 0px 600px;
 }
 
 .first-container .title {
   display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  text-align: center;
+  width: 110px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.second-container .author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.third-container {
+  /* display: flex;
+  justify-content: space-between; */
+  /* padding: 80px; */
+  padding: 10 200px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 20px 80px;
+}
+
+.banner button {
+  padding: 0 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
