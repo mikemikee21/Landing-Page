@@ -5,26 +5,27 @@
   /* outline: 2px solid red; */
   list-style: none;
   text-decoration: none;
+  font-family: 'Roboto', serif;
 }
-
-/* .container {
-  min-height: 100vh;
-  padding: 0 500px;
-} */
 
 body {
   min-height: 100vh;
-  /* padding: 0 500px; */
 }
 
 img {
   height: 110px;
   width: 110px;
+  border-radius: 5px;
+}
+
+.first-container img {
+  border: 2px solid #215ed1;
 }
 
 a {
   color: white;
 }
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -44,7 +45,7 @@ ul {
 }
 
 .header-container {
-  padding: 0px 200px;
+  padding: 0px 500px;
   background-color: #1f2937;
   color: white;
 }
@@ -52,28 +53,39 @@ ul {
 .header-body {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .header-body img {
-  width: 200px;
+  width: 250px;
+  height: 180px;
 }
 
 .header-body .title {
   font-size: 48px;
   color: #f9faf8;
-  font-weight: 900px;
+  font-weight: 900;
+}
+
+.header-text > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-body button {
+  color: white;
+  padding: 5px 15px;
+  margin-top: 10px;
 }
 
 .first-container {
-  padding: 0px 600px;
+  padding: 30px 600px;
 }
 
 .first-container .title {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
-  flex-shrink: 1;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
@@ -82,6 +94,7 @@ ul {
 .card-container {
   display: flex;
   justify-content: space-evenly;
+  flex: 1;
 }
 
 .card {
@@ -109,25 +122,40 @@ ul {
   display: flex;
   justify-content: flex-end;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .third-container {
-  /* display: flex;
-  justify-content: space-between; */
-  /* padding: 80px; */
-  padding: 10 200px;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 500px;
+  border-radius: 5px;
+  color: white;
+  background-color: #3882f6;
 }
 
 .banner {
   display: flex;
-  justify-content: center;
-  gap: 200px;
-  padding: 20px 80px;
-  background-color: #3882f6;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  /* padding: 50px; */
 }
 
 button {
-  padding: 0 20px;
+  display: flex;
+  align-self: center;
+  padding: 5px 15px;
+
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+  border-color: white;
+  background-color: #3882f6;
 }
 
 .footer {
